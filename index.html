@@ -27,16 +27,16 @@
     <!-- Slide 1: Title Slide -->
     <section class="slide active" data-slide="1">
 
-        <!-- Video Background, idk why its not working yet -->
-        <video id="backgroundVideo" muted loop playsinline preload="metadata" poster="valorant_poster.jpg">
-            <source src="valorant_video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        
-        <!-- Fallback Background Image -->
-        <div id="fallbackBackground" class="fallback-bg" style="display: none;">
-            <img src="Background.jpg" alt="Valorant Tournament Background" />
+        <div class="video-background">
+            <iframe 
+                src="https://www.youtube.com/embed/8OgcHAv6Jvk?autoplay=1&mute=1&loop=1&playlist=8OgcHAv6Jvk"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+                style="width:100vw; height:100vh; position:absolute; top:0; left:0; z-index:-1;">
+            </iframe>
         </div>
+        
 
         <div class="hero">
             <div class="hero-background"></div>
