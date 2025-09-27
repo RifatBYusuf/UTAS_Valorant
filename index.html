@@ -28,10 +28,15 @@
     <section class="slide active" data-slide="1">
 
         <!-- Video Background -->
-        <video id="backgroundVideo" muted loop playsinline preload="auto">
+        <video id="backgroundVideo" muted loop playsinline preload="metadata" poster="valorant_poster.jpg">
             <source src="valorant_video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        
+        <!-- Fallback Background Image -->
+        <div id="fallbackBackground" class="fallback-bg" style="display: none;">
+            <img src="valorant_poster.jpg" alt="Valorant Tournament Background" />
+        </div>
 
         <div class="hero">
             <div class="hero-background"></div>
